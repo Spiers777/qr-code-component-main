@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} /* Reset CSS */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit";
+    height: 100vh;
+}
+
+.qrContainer {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.qrContainer img {
+    border-radius: 10px;
+    width: 100%;
+    aspect-ratio: 1/1;
+    margin-bottom: 25px;
+}
+
+.qrContainer h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    padding: 0 10px;
+}
+
+.qrContainer p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    padding: 0 10px;
+}
